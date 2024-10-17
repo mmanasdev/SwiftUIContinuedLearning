@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3A4DC4542CC1504A00A6955D /* MultipleSheetsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4DC4532CC1504A00A6955D /* MultipleSheetsBootcamp.swift */; };
+		3A4DC4562CC156CB00A6955D /* MaskBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4DC4552CC156CB00A6955D /* MaskBootcamp.swift */; };
 		3AA1CC942CC11DD500767F44 /* GeometryReaderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA1CC932CC11DD500767F44 /* GeometryReaderBootcamp.swift */; };
 		3AE8EE902CBDA9DA00A2E203 /* SwiftUIContinuedLearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE8EE8F2CBDA9DA00A2E203 /* SwiftUIContinuedLearningApp.swift */; };
 		3AE8EE922CBDA9DA00A2E203 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE8EE912CBDA9DA00A2E203 /* ContentView.swift */; };
@@ -23,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		3A4DC4532CC1504A00A6955D /* MultipleSheetsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheetsBootcamp.swift; sourceTree = "<group>"; };
+		3A4DC4552CC156CB00A6955D /* MaskBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskBootcamp.swift; sourceTree = "<group>"; };
 		3AA1CC932CC11DD500767F44 /* GeometryReaderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderBootcamp.swift; sourceTree = "<group>"; };
 		3AE8EE8C2CBDA9DA00A2E203 /* SwiftUIContinuedLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIContinuedLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AE8EE8F2CBDA9DA00A2E203 /* SwiftUIContinuedLearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIContinuedLearningApp.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 				3AE8EEA72CC0319900A2E203 /* ScrollViewReaderBootcamp.swift */,
 				3AA1CC932CC11DD500767F44 /* GeometryReaderBootcamp.swift */,
 				3A4DC4532CC1504A00A6955D /* MultipleSheetsBootcamp.swift */,
+				3A4DC4552CC156CB00A6955D /* MaskBootcamp.swift */,
 				3AE8EE932CBDA9DC00A2E203 /* Assets.xcassets */,
 				3AE8EE952CBDA9DC00A2E203 /* Preview Content */,
 			);
@@ -162,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3AE8EEA62CBEDB6500A2E203 /* DragGestureBootcamp2.swift in Sources */,
+				3A4DC4562CC156CB00A6955D /* MaskBootcamp.swift in Sources */,
 				3AE8EEA42CBED6CF00A2E203 /* DragGestureBootcamp.swift in Sources */,
 				3AE8EE922CBDA9DA00A2E203 /* ContentView.swift in Sources */,
 				3AE8EEA82CC0319900A2E203 /* ScrollViewReaderBootcamp.swift in Sources */,
