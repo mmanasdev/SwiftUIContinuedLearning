@@ -76,11 +76,11 @@ class ArrayModificationViewModel: ObservableObject {
         
         mappedArray = dataArray.compactMap { $0.name }
         */
-        
+        /*
         let sort = dataArray.sorted { $0.points > $1.points }
         let filter = dataArray.filter { $0.isVerified }
         let map = dataArray.compactMap { $0.name }
-
+        */
         mappedArray = dataArray
             .sorted { $0.points > $1.points }
             .filter { $0.isVerified }
