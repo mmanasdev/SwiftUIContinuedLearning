@@ -19,6 +19,7 @@
 		3A5AD4012CD3EE47003E9DF1 /* EscapingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5AD4002CD3EE47003E9DF1 /* EscapingBootcamp.swift */; };
 		3A70836B2CC3C48800A0BCD3 /* LocalNotificationBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A70836A2CC3C48800A0BCD3 /* LocalNotificationBootcamp.swift */; };
 		3A79207F2CCBB9AC00168257 /* BackgroundThreadBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A79207E2CCBB9AC00168257 /* BackgroundThreadBootcamp.swift */; };
+		3A797AC12CDA8312005FB955 /* CodableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A797AC02CDA8312005FB955 /* CodableBootcamp.swift */; };
 		3A96FB022CC9889900C5A473 /* CoreDataRelationshipBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A96FB012CC9889900C5A473 /* CoreDataRelationshipBootcamp.swift */; };
 		3A96FB052CC98A0700C5A473 /* CoreDataContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3A96FB032CC98A0700C5A473 /* CoreDataContainer.xcdatamodeld */; };
 		3AA1CC942CC11DD500767F44 /* GeometryReaderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA1CC932CC11DD500767F44 /* GeometryReaderBootcamp.swift */; };
@@ -50,6 +51,7 @@
 		3A5AD4002CD3EE47003E9DF1 /* EscapingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscapingBootcamp.swift; sourceTree = "<group>"; };
 		3A70836A2CC3C48800A0BCD3 /* LocalNotificationBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationBootcamp.swift; sourceTree = "<group>"; };
 		3A79207E2CCBB9AC00168257 /* BackgroundThreadBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundThreadBootcamp.swift; sourceTree = "<group>"; };
+		3A797AC02CDA8312005FB955 /* CodableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBootcamp.swift; sourceTree = "<group>"; };
 		3A96FB012CC9889900C5A473 /* CoreDataRelationshipBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataRelationshipBootcamp.swift; sourceTree = "<group>"; };
 		3A96FB042CC98A0700C5A473 /* CoreDataContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataContainer.xcdatamodel; sourceTree = "<group>"; };
 		3AA1CC932CC11DD500767F44 /* GeometryReaderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderBootcamp.swift; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 				3AE7E8322CD15850004386B2 /* WeakSelfBootcamp.swift */,
 				3AE7E8342CD2C87B004386B2 /* TypealiasBootcamp.swift */,
 				3A5AD4002CD3EE47003E9DF1 /* EscapingBootcamp.swift */,
+				3A797AC02CDA8312005FB955 /* CodableBootcamp.swift */,
 				3AE8EE932CBDA9DC00A2E203 /* Assets.xcassets */,
 				3AE8EE952CBDA9DC00A2E203 /* Preview Content */,
 			);
@@ -235,6 +238,7 @@
 				3A70836B2CC3C48800A0BCD3 /* LocalNotificationBootcamp.swift in Sources */,
 				3AE7E8352CD2C87B004386B2 /* TypealiasBootcamp.swift in Sources */,
 				3AE8EEA82CC0319900A2E203 /* ScrollViewReaderBootcamp.swift in Sources */,
+				3A797AC12CDA8312005FB955 /* CodableBootcamp.swift in Sources */,
 				3AE7E8332CD15850004386B2 /* WeakSelfBootcamp.swift in Sources */,
 				3A4DC4542CC1504A00A6955D /* MultipleSheetsBootcamp.swift in Sources */,
 				3AE8EE902CBDA9DA00A2E203 /* SwiftUIContinuedLearningApp.swift in Sources */,
