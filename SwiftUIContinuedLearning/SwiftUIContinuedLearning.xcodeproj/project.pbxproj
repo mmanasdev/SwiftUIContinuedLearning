@@ -11,6 +11,7 @@
 		3A0CEEBE2CC7FA0A00F20F5C /* FruitsContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3A0CEEBC2CC7FA0A00F20F5C /* FruitsContainer.xcdatamodeld */; };
 		3A1B2E962CDFD6F000C2A5C2 /* DownloadWithCombineBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1B2E952CDFD6F000C2A5C2 /* DownloadWithCombineBootcamp.swift */; };
 		3A1B2E982CE12C0B00C2A5C2 /* TimerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1B2E972CE12C0B00C2A5C2 /* TimerBootcamp.swift */; };
+		3A1B2E9A2CE29DA700C2A5C2 /* SubscriberBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1B2E992CE29DA700C2A5C2 /* SubscriberBootcamp.swift */; };
 		3A4DC4542CC1504A00A6955D /* MultipleSheetsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4DC4532CC1504A00A6955D /* MultipleSheetsBootcamp.swift */; };
 		3A4DC4562CC156CB00A6955D /* MaskBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4DC4552CC156CB00A6955D /* MaskBootcamp.swift */; };
 		3A4DC4582CC15B0100A6955D /* SoundsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4DC4572CC15B0100A6955D /* SoundsBootcamp.swift */; };
@@ -46,6 +47,7 @@
 		3A0CEEBD2CC7FA0A00F20F5C /* FruitsContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FruitsContainer.xcdatamodel; sourceTree = "<group>"; };
 		3A1B2E952CDFD6F000C2A5C2 /* DownloadWithCombineBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadWithCombineBootcamp.swift; sourceTree = "<group>"; };
 		3A1B2E972CE12C0B00C2A5C2 /* TimerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerBootcamp.swift; sourceTree = "<group>"; };
+		3A1B2E992CE29DA700C2A5C2 /* SubscriberBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriberBootcamp.swift; sourceTree = "<group>"; };
 		3A4DC4532CC1504A00A6955D /* MultipleSheetsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheetsBootcamp.swift; sourceTree = "<group>"; };
 		3A4DC4552CC156CB00A6955D /* MaskBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskBootcamp.swift; sourceTree = "<group>"; };
 		3A4DC4572CC15B0100A6955D /* SoundsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundsBootcamp.swift; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 				3ACBCE3C2CDD3058002263E2 /* DownloadWithEscapingBootcamp.swift */,
 				3A1B2E952CDFD6F000C2A5C2 /* DownloadWithCombineBootcamp.swift */,
 				3A1B2E972CE12C0B00C2A5C2 /* TimerBootcamp.swift */,
+				3A1B2E992CE29DA700C2A5C2 /* SubscriberBootcamp.swift */,
 				3AE8EE932CBDA9DC00A2E203 /* Assets.xcassets */,
 				3AE8EE952CBDA9DC00A2E203 /* Preview Content */,
 			);
@@ -242,6 +245,7 @@
 				3A0CEEBB2CC7F88600F20F5C /* CoreDataBootcamp.swift in Sources */,
 				3A4DC4562CC156CB00A6955D /* MaskBootcamp.swift in Sources */,
 				3AE8EEA42CBED6CF00A2E203 /* DragGestureBootcamp.swift in Sources */,
+				3A1B2E9A2CE29DA700C2A5C2 /* SubscriberBootcamp.swift in Sources */,
 				3A96FB052CC98A0700C5A473 /* CoreDataContainer.xcdatamodeld in Sources */,
 				3AE8EE922CBDA9DA00A2E203 /* ContentView.swift in Sources */,
 				3A5797132CC6C88900F404D9 /* ArraysBootcamp.swift in Sources */,
