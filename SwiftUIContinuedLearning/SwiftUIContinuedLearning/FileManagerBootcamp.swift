@@ -7,17 +7,83 @@
 
 import SwiftUI
 
+class LocalFileManager {
+    
+    static let instance = LocalFileManager()
+    
+    func saveImage(image: UIImage, name: String) {
+        guard let data = image.jpegData(compressionQuality: 1.0),
+              let path = getPathForImage(name: name)
+        else {
+            print("Error getting Data.")
+            return
+        }
+        
+//        let directory = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)
+//        let directory = FileManager.default.urls(for: .cachesDirectory, in: .userDomainMask).first
+//        let directory3 = FileManager.default.temporaryDirectory
+//        let path = directory?.appendingPathComponent("\(name).jpg")
+        
+//        guard let path = FileManager.default.urls(for: .cachesDirectory, in: .userDomainMask).first?
+//            .appendingPathComponent("\(name).jpg")
+//        else {
+//            print("error getting path.")
+//            return
+//        }
+        
+        do {
+            try data.write(to: path)
+        } catch let error {
+            print("error saving \(error.localizedDescription)")
+        }
+        
+    }
+    
+    func getImage(name: String) -> UIImage? {
+        guard let path = getPathForImage(name: name)?.path,
+              FileManager.default.fileExists(atPath: path)
+        else {
+            print("Error getting path.")
+            return nil
+        }
+        
+        return UIImage(contentsOfFile: path)
+    }
+    
+    func getPathForImage(name: String) -> URL? {
+        guard let path = FileManager.default.urls(for: .cachesDirectory, in: .userDomainMask).first?
+            .appendingPathComponent("\(name).jpg")
+        else {
+            print("error getting path.")
+            return nil
+        }
+        return path
+    }
+    
+}
+
 class FileManagerViewModel: ObservableObject {
     
     @Published var image: UIImage? = nil
     let imageName: String = "forest-background"
+    let manager = LocalFileManager.instance
     
     init() {
         getImageFromAssetsFolder()
+        getImageFromFileManager()
     }
     
     func getImageFromAssetsFolder() {
         image = UIImage(named: imageName)
+    }
+    
+    func saveImage() {
+        guard let image = image else { return }
+        manager.saveImage(image: image, name: imageName)
+    }
+    
+    func getImageFromFileManager() {
+        image = manager.getImage(name: imageName)
     }
     
 }
@@ -38,6 +104,19 @@ struct FileManagerBootcamp: View {
                         .clipped()
                         .cornerRadius(10)
                 }
+                
+                Button {
+                    vm.saveImage()
+                } label: {
+                    Text("Save to FM")
+                        .foregroundColor(.white)
+                        .font(.headline)
+                        .padding()
+                        .padding(.horizontal)
+                        .background(.blue)
+                        .cornerRadius(10)
+                }
+
                 
                 Spacer()
             }
