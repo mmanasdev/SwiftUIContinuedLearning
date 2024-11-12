@@ -40,6 +40,7 @@
 		3AE8EEA42CBED6CF00A2E203 /* DragGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE8EEA32CBED6CF00A2E203 /* DragGestureBootcamp.swift */; };
 		3AE8EEA62CBEDB6500A2E203 /* DragGestureBootcamp2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE8EEA52CBEDB6500A2E203 /* DragGestureBootcamp2.swift */; };
 		3AE8EEA82CC0319900A2E203 /* ScrollViewReaderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE8EEA72CC0319900A2E203 /* ScrollViewReaderBootcamp.swift */; };
+		3AED9BD62CE3C22100647B56 /* FileManagerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AED9BD52CE3C22100647B56 /* FileManagerBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -77,6 +78,7 @@
 		3AE8EEA32CBED6CF00A2E203 /* DragGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureBootcamp.swift; sourceTree = "<group>"; };
 		3AE8EEA52CBEDB6500A2E203 /* DragGestureBootcamp2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureBootcamp2.swift; sourceTree = "<group>"; };
 		3AE8EEA72CC0319900A2E203 /* ScrollViewReaderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderBootcamp.swift; sourceTree = "<group>"; };
+		3AED9BD52CE3C22100647B56 /* FileManagerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 				3A1B2E952CDFD6F000C2A5C2 /* DownloadWithCombineBootcamp.swift */,
 				3A1B2E972CE12C0B00C2A5C2 /* TimerBootcamp.swift */,
 				3A1B2E992CE29DA700C2A5C2 /* SubscriberBootcamp.swift */,
+				3AED9BD52CE3C22100647B56 /* FileManagerBootcamp.swift */,
 				3AE8EE932CBDA9DC00A2E203 /* Assets.xcassets */,
 				3AE8EE952CBDA9DC00A2E203 /* Preview Content */,
 			);
@@ -240,6 +243,7 @@
 				3A4DC4582CC15B0100A6955D /* SoundsBootcamp.swift in Sources */,
 				3A1B2E962CDFD6F000C2A5C2 /* DownloadWithCombineBootcamp.swift in Sources */,
 				3A79207F2CCBB9AC00168257 /* BackgroundThreadBootcamp.swift in Sources */,
+				3AED9BD62CE3C22100647B56 /* FileManagerBootcamp.swift in Sources */,
 				3A96FB022CC9889900C5A473 /* CoreDataRelationshipBootcamp.swift in Sources */,
 				3AE8EEA62CBEDB6500A2E203 /* DragGestureBootcamp2.swift in Sources */,
 				3A0CEEBB2CC7F88600F20F5C /* CoreDataBootcamp.swift in Sources */,
