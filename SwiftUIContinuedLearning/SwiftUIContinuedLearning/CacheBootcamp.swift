@@ -31,8 +31,8 @@ class CacheManager {
     }
     
     func get(name: String) -> UIImage? {
-        return imageCache.object(forKey: name as NSString)
         print("Removed from cache!")
+        return imageCache.object(forKey: name as NSString)
     }
 }
 
