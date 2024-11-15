@@ -9,14 +9,20 @@ import SwiftUI
 
 struct DownloadingImageView: View {
     
-    @State var isLoading: Bool = true
+    @StateObject var loader:ImageLoadingViewModel
+    
+    init(url: String) {
+        _loader = StateObject(wrappedValue: ImageLoadingViewModel(urlString: url))
+    }
     
     var body: some View {
         ZStack {
-            if isLoading {
+            if loader.isLoading {
                 ProgressView()
-            } else {
-                Circle()
+            } else if let image = loader.image {
+                Image(uiImage: image)
+                    .resizable()
+                    .clipShape(Circle())
             }
         }
     }
@@ -24,7 +30,7 @@ struct DownloadingImageView: View {
 
 struct DownloadingImageView_Previews: PreviewProvider {
     static var previews: some View {
-        DownloadingImageView()
+        DownloadingImageView(url: "https://via.placeholder.com/600/92c952")
             .frame(width: 75, height: 75)
             .previewLayout(.sizeThatFits)
     }
