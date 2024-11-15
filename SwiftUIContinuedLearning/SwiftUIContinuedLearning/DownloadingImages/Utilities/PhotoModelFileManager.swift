@@ -43,11 +43,31 @@ class PhotoModelFileManager {
             .appendingPathComponent(folderName)
     }
     
+    func getImagePath(key: String) -> URL? {
+        guard let folder = getFolderPath() else { return nil }
+        return folder.appendingPathComponent(key + ".png")
+    }
+    
     func add(key: String, value: UIImage) {
-        photoCache.setObject(value, forKey: key as NSString)
+        guard
+            let data = value.pngData(),
+            let url = getImagePath(key: key) else { return }
+        
+        do {
+            try data.write(to: url)
+        } catch let error {
+            print("error saving to file manager: \(error)")
+        }
     }
     
     func get(key: String) -> UIImage? {
-        return photoCache.object(forKey: key as NSString)
+        
+        guard
+            let url = getImagePath(key: key),
+            FileManager.default.fileExists(atPath: url.path)
+        else { return nil }
+        return UIImage(contentsOfFile: url.path)
     }
+    
+    
 }
